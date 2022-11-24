@@ -32,9 +32,9 @@ public abstract class Shape {
 
     @Override
     public String toString() {
-        return "Shape{" +
+        return "Shape[" +
                 "color='" + color + '\'' +
                 ", filled=" + filled +
-                '}';
+                ']';
     }
 }
