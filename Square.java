@@ -4,6 +4,11 @@ public class Square extends Rectangle{
     public Square() {
     }
 
+    public Square(double side) {
+        this.side = side;
+    }
+
+
 
     public double getSide() {
         return side;
@@ -23,5 +28,5 @@ public class Square extends Rectangle{
         super.setLength(this.side);
     }
 
-   
+
 }
